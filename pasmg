@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# assemble (nasm), link (gcc) and run file given in argument
+# usage: pasmg <base_filename>
+nasm -f elf32 -g "$1.asm" && gcc -m32 -o "$1" "$1.o" && "./$1"
