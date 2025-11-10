@@ -86,21 +86,21 @@ L'appel à cette commande système se fait en 5 lignes :
 `len` et `msg` seront définis dans la section **données**. Par exemple :
 
 ```asm
-		msg db 'Bonjour !'   ; message à afficher
+	msg db 'Bonjour !'   ; message à afficher
     len db 9             ; longueur du message = 9 octets
 ```
 
 On peut aussi calculer automatiquement la longueur du message avec `equ $ - msg` :
 
 ```asm
-		msg db 'Bonjour !'   ; message à afficher
+	msg db 'Bonjour !'   ; message à afficher
     len equ $-msg        ; calcule la longueur du message précédent
 ```
 
 On peut aussi ajouter un retour à la ligne à notre message :
 
 ```asm
-		msg db 'Bonjour !', 0xA   ; message à afficher + retour à la ligne
+	msg db 'Bonjour !', 0xA   ; message à afficher + retour à la ligne
     len equ $-msg             ; calcule la longueur du message précédent
 ```
 
