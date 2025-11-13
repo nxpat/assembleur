@@ -1,4 +1,5 @@
 ; Exercice_1
+; Modifier le code ci-dessous :
 ; compare deux nombres x et y et affiche un message dans la console
 ; pour `x == y`, `x > y` ou `x < y`
 ;
