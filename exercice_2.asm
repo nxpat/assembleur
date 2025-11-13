@@ -1,5 +1,6 @@
 ; Exercice_2
-; vérifie si un nombre est pair ou impair et affiche un message dans la console
+; Modifier le code ci-dessous :
+; vérifie si un nombre n est pair ou impair et affiche un message dans la console
 ;
 ; assemble, link and run with ./pasm exercice_2
 ; exécuter dans le shell avec la commande ./pasm exercice_2
